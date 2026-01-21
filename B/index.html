@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="cs">
+  <head>
+    <meta charset="utf-8">
+    <title>Operační systémy</title>
+    <link rel="stylesheet" href="../styles.css">
+  </head>
+  <body>
+    <input type="checkbox" id="theme-switcher">
+    <header class="themed-content">
+	<ul class="navbar">
+		<li><a href="../index.html"><i class="icon icon_go-home"></i></a></li>
+		<li><a href="../A/index.html">Soubory</a></li>
+		<li><span>Operační systémy</span></li>
+		<li><a href="../C/index.html">Firmware</a></li>
+		<li><a href="../D/index.html">Aplikace</a></li>
+		<li><a href="../F/index.html">Licence</a></li>
+		<li class="navbar-right"><label class="theme-icon" for="theme-switcher"></label></li>
+	</ul>
+	<hr>
+    </header>
+    <main class="themed-content">
+        <h1><i class="icon icon_system-run"></i>Operační systémy</h1>
+        <div class="flexsplit">
+	<div class="leftsplit">
+        <div class="info">
+        <p>Programové vybavení <em>(software)</em> je podmínkou využití technického vybavení <em>(hardware)</em>. V raných dobách počítačové éry byly programy vytvářeny vždy pro konkrétní hardware. V okamžiku, kdy počítače začaly být produkovány ve větších sériích, objevila se i potřeba vývoje speciálních <b>systémových programů</b>, které by obstaraly základní operace s hardwarem a nabídly prostředí pro běh aplikací, tj. programů určených pro konkrétní účely.</p>
+        </div>
+	<h2><i class="icon icon_code-function"></i>Systémové programy</h2>
+        <p>Základním programovým vybavením počítačů (a jim podobných zařízení) jsou <b>operační systémy</b> <em>(OS - Operation System)</em>. Jejich nejdůležitější funkcí je zajištění řízení hardware. To má na starosti <b>jádro systému</b>, které tvoří subsystémy pro správu procesoru, paměti, diskových médií a dalších zařízení. Jádro pro své operace vyžaduje instalaci ovladačů jednotlivých zařízení <em>(drivers)</em> a s jejich pomocí zpřístupňuje technické vybavení běžícím procesům.</p>
+        <div class="info">
+        <h3><i class="icon icon_view-sidetree"></i>Programové rozhraní</h3>
+        <p>Nezbytnou součástí operačních systémů je <b>aplikační rozhraní</b> <em>(API - Application Programming Interface)</em>, které nabízí programátorům prostředky pro vývoj aplikací pro daný systém.</p>
+        <p><b>Uživatelské rozhraní</b> slouží k ovládání OS a k spouštění aplikací. Zatímco starší OS se ovládaly častěji prostřednictvím <b>příkazového řádku</b> <em>(CLI - Command Line Interface)</em>, moderní systémy poskytují <b>grafické uživatelské rozhraní</b> <em>(GUI - Graphic User Interface)</em> založené na oknech a grafických prvcích.</p></div>
+        <h2><i class="icon icon_split"></i>Rozdělení systémů</h2>
+	<p>Současné OS rozdělujeme nejčastěji podle typů zařízení, pro která jsou určeny. Existují systémy <b>pro síťové servery</b> (např. <em>MS Windows 2012 Server, Linux, Unix</em>), <b>pro běžné osobní počítače</b> - desktopy, notebooky, netbooky (např. <em>MS Windows, Linux Ubuntu, OS X</em>), <b>pro mobilní zařízení</b> (<em>Android, Symbian, Windows Phone, iOS</em>) i speciální <b>RTOS</b> (<em>Real-Time Operating System - systémy reálného času</em>), které zajišťují provoz „chytrých“ zařízení, jakými jsou robotické kamery využívané pro sportovní přenosy, měřící přístroje na orbitálních stanicích nebo jednotky pro řízení různých průmyslových procesů. Zatímco u desktopového systému je možné pozdržet dokončení některých operací a provádět paralelně jiné operace, v případě RTOS je nezbytné provádět operace bez prodlevy a s vysokou spolehlivostí v reálném čase.</p>
+	</div>
+	<div class="rightsplit">
+		<div class="sources">
+		<h3><i class="icon icon_appointment-new"></i>Vývoj operačních systémů</h3>
+		<p>Na počátku vývoje moderních OS byl víceúlohový a víceuživatelský systém <b>UNIX</b>, který se od 70. let používal v sálových počítačích i minipočítačích. Jeho principy využily i další OS. V 80. letech minulého století si vzájemně konkurovaly systémy firmy <em>Microsoft</em> (<b>MS DOS</b>), instalované na počítačích IBM PC, a firmy <em>Apple</em> (<b>Mac OS</b>), která rozvinula myšlenky vývojářů společnosti Xerox a začala jako první používat grafické uživatelské rozhraní. To se stalo také základem <b>MS Windows</b>, jenž hrál prim především na přelomu tisíciletí. V té době už získával stále větší popularitu volně šiřitelný systém <b>Linux</b>, pojmenovaný podle svého tvůrce <em>Linuse Torvaldse</em> a staršího vzoru UNIXu. Zatímco operační systémy Windows dominují především na osobních počítačích v domácnostech i kancelářích, různé linuxové distribuce jsou velmi často instalovány na síťových serverech.</p>
+		</div>
+		<div id="os-img"></div>
+	</div>
+	</div>
+    </main>
+    <footer class="themed-content">
+	<hr>
+	<p>&copy;2026 Tobiáš Hrubec, <a href="https://develop.kde.org/frameworks/breeze-icons/">ikony breeze</a> &copy;KDE a licencovány pod GNU LGPL verze 3 nebo více</p>
+    </footer>
+  </body>
+</html>

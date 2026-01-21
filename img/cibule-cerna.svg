@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="48"
+   height="48"
+   viewBox="0 0 12.7 12.7"
+   version="1.1"
+   id="svg1"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <title
+     id="title7">Cibule</title>
+  <defs
+     id="defs1">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath5">
+      <g
+         id="use5" />
+    </clipPath>
+    <mask
+       maskUnits="userSpaceOnUse"
+       id="mask6">
+      <g
+         id="g7">
+        <rect
+           style="fill:#ffffff;stroke-width:2.64583"
+           id="rect7"
+           width="12.699999"
+           height="12.699999"
+           x="0"
+           y="0" />
+        <path
+           style="fill:#000000;stroke-width:2.64583"
+           d="m 6.3499994,2.1166665 v 8.4666655 c 0,0 4.2333326,0 4.2333326,-4.2333326 0,-4.2333329 -4.2333326,-4.2333329 -4.2333326,-4.2333329 z"
+           id="path7"
+           clip-path="none" />
+      </g>
+    </mask>
+  </defs>
+  <g
+     id="layer1"
+     style="fill:#000000">
+    <circle
+       style="fill:#000000;stroke-width:2.64583"
+       id="path2"
+       cx="6.3499994"
+       cy="6.3499994"
+       r="6.3499994"
+       mask="url(#mask6)" />
+  </g>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Tobiáš Hrubec</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:rights>
+          <cc:Agent>
+            <dc:title>Všechna práva vyhrazena</dc:title>
+          </cc:Agent>
+        </dc:rights>
+        <dc:title>Cibule</dc:title>
+        <dc:date>19.01.2025</dc:date>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>
